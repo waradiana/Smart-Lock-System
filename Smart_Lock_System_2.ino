@@ -24,11 +24,11 @@ MFRC522 rfid(SS_PIN, RST_PIN);
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
-#define WIFI_SSID "UPT_TIK"
-#define WIFI_PASS "gaspoll23#"
+#define WIFI_SSID "SSID WIFI"
+#define WIFI_PASS "PASSWORD WIFI"
 
-const char* botToken = "7730985699:AAHFgLJZi73bv4sk8Y9JSteURVxqXRQ6yuw";
-const char* chat_id = "1159408196";
+const char* botToken = "YOUR BOT TOKEN ";
+const char* chat_id = "YOUR CHAT ID ";
 WiFiClientSecure client;
 UniversalTelegramBot bot(botToken, client);
 
